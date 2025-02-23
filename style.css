@@ -1,3 +1,27 @@
 .head {
- background-color: cyan;
+    background-color: cyan;
+}
+
+button {
+    background-color: #007bff;
+    /* Blue background */
+    color: white;
+    /* White text */
+    padding: 10px 20px;
+    /* Padding */
+    border: none;
+    /* No border */
+    border-radius: 5px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Pointer cursor */
+    font-size: 16px;
+    /* Font size */
+    transition: background-color 0.3s ease;
+    /* Smooth hover effect */
+}
+
+button:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
 }
